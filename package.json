@@ -1,0 +1,23 @@
+{
+  "name": "myresume",
+  "version": "1.0.0",
+  "description": "my personal resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuXiaoBin/My-Resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuXiaoBin/My-Resume/issues"
+  },
+  "homepage": "https://github.com/HuXiaoBin/My-Resume#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
