@@ -10,13 +10,13 @@ $(document).ready(function() {
     } else {
         var en = ['Home', 'Professions', 'Education', 'Contact Me'];
         var cn = ['首页', '技能', '教育', '联系'];
-        var isCn = window.location.href.indexOf('index.html') >= 0;
+        var isEn = window.location.href.indexOf('index-en.html') >= 0;
         $('.section').addClass('initing');
         $('#pagepiling').pagepiling({
             loopBottom: true,
             navigation: {
                 'position': 'left',
-                'tooltips': isCn ? cn : en
+                'tooltips': isEn ? en : cn
             },
             onLeave: function(index, nextIndex, direction) {
                 var $pages = $('.section');
